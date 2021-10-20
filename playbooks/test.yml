@@ -1,0 +1,11 @@
+---
+- name: A simple playbook
+  hosts:
+    - localhost
+  gather_facts: no
+  vars_file:
+    - ../vault/vault.yml
+  tasks:
+    - debug: var=encrypted
+    - debug: var=other
+    - ping:
