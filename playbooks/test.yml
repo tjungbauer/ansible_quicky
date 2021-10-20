@@ -4,7 +4,7 @@
     - all
   gather_facts: no
   vars_files:
-    - ../vault/vault.yml
+    - ../vault/vault.vault
   tasks:
     - debug: var=encrypted
     - debug: var=other
