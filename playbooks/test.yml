@@ -8,4 +8,5 @@
   tasks:
     - debug: var=encrypted
     - debug: var=other
+    - debug: var=myvariable
       #- ping:
