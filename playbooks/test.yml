@@ -9,4 +9,5 @@
     - debug: var=encrypted
     - debug: var=other
     - debug: var=myvariable
+    - debug: var=encvar
       #- ping:
