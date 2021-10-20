@@ -1,1 +1,8 @@
-localhost connection=local
+
+---
+all:
+  hosts:
+  children:
+    ncs_customer_reliability_dev:
+      hosts:
+        192.168.100.5:
