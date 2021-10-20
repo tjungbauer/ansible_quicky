@@ -3,7 +3,7 @@
   hosts:
     - localhost
   gather_facts: no
-  vars_file:
+  vars_files:
     - ../vault/vault.yml
   tasks:
     - debug: var=encrypted
